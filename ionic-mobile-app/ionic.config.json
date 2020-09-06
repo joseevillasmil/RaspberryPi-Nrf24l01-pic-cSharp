@@ -1,0 +1,7 @@
+{
+  "name": "serial",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
