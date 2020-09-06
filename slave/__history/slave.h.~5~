@@ -1,0 +1,4 @@
+#include <16F628A.h>
+#fuses XT, NOWDT, PUT, NOMCLR, NOBROWNOUT
+#use delay(internal=48000)
+

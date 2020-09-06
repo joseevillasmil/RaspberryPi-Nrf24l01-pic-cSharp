@@ -1,0 +1,58 @@
+
+ROM used:   441/2048 (22%)
+            441/2048 (22%) including unused fragments
+
+            0.2 Average locations per line
+            0.7 Average locations per statement
+
+RAM used:   46/224 (21%) at main() level
+            55/224 (25%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   64    25   4  slave.c
+    5     0   0  slave.h
+  529     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F628A.h
+  306   150  23  nrf.c
+ 1352   359  54  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\STDLIB.H
+   32     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  435   129  19  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 2751   663 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     18   4    1             @delay_ms1
+0     36   8    5             @SPI_XFER_1
+0      9   2    0     52  1.1  pulse_CSN
+0      9   2    0     32  1.0  init_rf
+0      8   2    0     38  1.0  flush_rx
+0     48  11    3    287  3.7  rf_read_Data
+0    151  34    6   1030  2.1  configure_RX
+0     37   8    1    263  3.7  data_in_rf
+0    121  27    1    536  6.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              663
+    Comments                1054
+    Volume (V)              3162
+    Difficulty (D)          19.7
+    Effort to implement (E) 62158
+    Time to implement (T)   58 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   6
+    Maintainability (MI)    73
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   437  1607  
+
+
+

@@ -1,0 +1,90 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020-02F RF_RCV_DATA
+030-03F RF_TX_DATA
+040.0   DATA_IN_RX
+041-042 strtok.save
+043-046 _Randseed
+047     c
+048     configure_RX.rf_slave_addr1
+048     data_in_rf.temp_fifo_register
+048     rf_read_Data.rf_i
+048     MAIN.@SCRATCH1
+049     configure_RX.rf_slave_addr2
+049     @delay_ms1.P1
+049     rf_read_Data.@SCRATCH1
+04A     configure_RX.rf_slave_addr3
+04A     rf_read_Data.@SCRATCH2
+04B     configure_RX.rf_slave_addr4
+04C     configure_RX.rf_slave_addr5
+04D     configure_RX.i_rf_rx
+04E     @SPI_XFER_1.P1
+04F     @SPI_XFER_1.P1
+050     @SPI_XFER_1.@SCRATCH1
+051     @SPI_XFER_1.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+000004  init_rf
+00000D  pulse_CSN
+000016  @SPI_XFER_1
+00003A  flush_rx
+000042  configure_RX
+0000D9  data_in_rf
+0000FE  @delay_ms1
+000110  rf_read_Data
+000140  @cinit1
+000140  MAIN
+000152  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    C:\Users\José\Documents\pic\nrf encendedor\NRF24L01-ENCENDEDOR\slave\
+
+Project Files:
+    slave.c                                                 [24-ago.-20 21:25  CRC=D29AC4D3]
+    slave.h                                                 [24-ago.-20 21:12  CRC=00000000]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F628A.h [15-ene.-18 15:52  CRC=D7C7303C]
+    nrf.c                                                   [15-ago.-20 20:54  CRC=52194DA0]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\STDLIB.H [29-jun.-16 09:34  CRC=7E9CC16B]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h [05-sept.-14 11:47  CRC=897CEC6C]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h [26-mar.-15 12:34  CRC=C4814297]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h [03-ene.-08 14:55  CRC=2D1F019F]
+
+Source signature=2354365B
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=A42D
+
+Units:
+    slave (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   slave.xsym
+    Errors:      slave.err
+    Ext Symbols: slave.esym
+    INHX8:       slave.hex
+    Symbols:     slave.sym
+    List:        slave.lst
+    Debug/COFF:  slave.cof
+    Project:     slave.ccspjt
+    Call Tree:   slave.tre
+    Statistics:  slave.STA

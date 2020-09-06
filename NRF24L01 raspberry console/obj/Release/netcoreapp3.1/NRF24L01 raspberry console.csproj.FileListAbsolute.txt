@@ -1,0 +1,20 @@
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\NRF24L01 raspberry console.exe
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\NRF24L01 raspberry console.deps.json
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\NRF24L01 raspberry console.runtimeconfig.json
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\NRF24L01 raspberry console.runtimeconfig.dev.json
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\NRF24L01 raspberry console.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\NRF24L01 raspberry console.pdb
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\Unosquare.Raspberry.Abstractions.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\Unosquare.RaspberryIO.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\Unosquare.RaspberryIO.Peripherals.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\Swan.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\Swan.Lite.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\bin\Release\netcoreapp3.1\Unosquare.WiringPi.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.csprojAssemblyReference.cache
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.AssemblyInfoInputs.cache
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.AssemblyInfo.cs
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.csproj.CoreCompileInputs.cache
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.csproj.CopyComplete
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.dll
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.pdb
+C:\Users\José\source\repos\NRF24L01 raspberry console\obj\Release\netcoreapp3.1\NRF24L01 raspberry console.genruntimeconfig.cache

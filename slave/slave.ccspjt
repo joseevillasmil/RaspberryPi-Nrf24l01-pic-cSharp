@@ -1,0 +1,175 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=11
+
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=slave.hex
+Development_Mode=
+Processor_Text=PIC16F628A
+ToolSuite=CCS
+CCSVersion=5.076
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=slave.c
+
+[slave.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=slave.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=slave.c
+t1=21
+Count=8
+2=slave.h
+t2=1
+3=..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F628A.h
+t3=1
+4=..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\STDLIB.H
+t4=1
+5=..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+t5=1
+6=..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+t6=1
+7=..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+t7=1
+8=nrf.c
+t8=42
+
+[ProjectLog]
+Days=9
+D1=15-08-2020
+D1_L=13
+D1_L1=[75051]Project Closed.
+D1_L2=[75051]Project Opened.
+D1_L3=[75057]Started Editing.
+D1_L4=[75571]Stopped Editing.
+TotalEdit=33
+TotalDebug=0
+D1_E=9
+D1_D=0
+D1_L5=[75571]Project Closed.
+D1_L6=[76219]Project Opened.
+D1_L7=[76563]Project Closed.
+D1_L8=[76675]Project Opened.
+D1_L9=[78811]Project Closed.
+D1_L10=[78811]Project Opened.
+D1_L11=[78828]Project Closed.
+D1_L12=[78868]Project Opened.
+D1_L13=[80248]Project Closed.
+D2=20-08-2020
+D2_L=21
+D2_L1=[75713]Project Opened.
+D2_L2=[75767]Project Closed.
+D2_L3=[76029]Project Opened.
+D2_L4=[76045]Project Closed.
+D2_L5=[76765]Project Opened.
+D2_L6=[77131]Project Closed.
+D2_L7=[77703]Project Opened.
+D2_L8=[77718]Project Closed.
+D2_L9=[77718]Project Opened.
+D2_L10=[77724]Started Editing.
+D2_L11=[77767]Stopped Editing.
+D2_E=2
+D2_D=0
+D2_L12=[77767]Project Closed.
+D2_L13=[77767]Project Opened.
+D2_L14=[77782]Started Editing.
+D2_L15=[78082]Stopped Editing.
+D2_L16=[79004]Project Closed.
+D2_L17=[79013]Project Opened.
+D2_L18=[79019]Project Closed.
+D2_L19=[79030]Project Opened.
+D2_L20=[79033]Started Editing.
+D2_L21=[79502]Stopped Editing.
+D3=21-08-2020
+D3_E=3
+D3_D=0
+D3_L=1
+D3_L1=[31619]Project Closed.
+D4=24-08-2020
+D4_L=7
+D4_L1=[75691]Project Opened.
+D4_L2=[75711]Started Editing.
+D4_L3=[76724]Stopped Editing.
+D4_L4=[76771]Started Editing.
+D4_L5=[77073]Stopped Editing.
+D4_L6=[77108]Started Editing.
+D4_L7=[77410]Stopped Editing.
+D5=25-08-2020
+D5_E=15
+D5_D=0
+D5_L=7
+D5_L1=[32995]Project Closed.
+D5_L2=[40322]Project Opened.
+D5_L3=[40360]Started Editing.
+D5_L4=[40660]Stopped Editing.
+D5_L5=[53239]Started Editing.
+D5_L6=[53380]Stopped Editing.
+D5_L7=[53380]Project Closed.
+D6=30-08-2020
+D6_L=1
+D6_L1=[284]Project Opened.
+D7=31-08-2020
+D7_L=1
+D7_L1=[43790]Project Closed.
+D8=02-09-2020
+D8_L=7
+D8_L1=[69616]Project Opened.
+D8_L2=[71591]Started Editing.
+D8_L3=[72083]Stopped Editing.
+D8_E=4
+D8_D=0
+D8_L4=[73853]Project Closed.
+D8_L5=[74426]Project Opened.
+D8_L6=[82925]Project Closed.
+D8_L7=[82925]Project Opened.
+D9=04-09-2020
+D9_L=2
+D9_L1=[91]Project Closed.
+D9_L2=[63855]Project Opened.
+[Units]
+Count=1
+1=slave (main)
